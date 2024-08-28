@@ -1,7 +1,9 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
-import Container from "../_components/container";
+import Container from "@/_components/container"
+import ButtonCard from "@/_components/buttoncard";
+import Display from "@/_components/display";
 
 export default function Home() {
   return (
@@ -11,7 +13,11 @@ export default function Home() {
           Calculator&nbsp;
         </p>
         </div>
-        <Container/>
+        <Container>
+          <Display value="0"></Display>
+          <ButtonCard></ButtonCard>
+        </Container>
+        
     </main>
   );
 }

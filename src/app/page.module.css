@@ -1,4 +1,4 @@
-/*
+
 .main {
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@
 
 .description {
   display: inherit;
-  justify-content: inherit;
+  justify-content: center;
   align-items: inherit;
   font-size: 0.85rem;
   max-width: var(--max-width);
@@ -18,7 +18,7 @@
   z-index: 2;
   font-family: var(--font-mono);
 }
-
+/*
 .description a {
   display: flex;
   justify-content: center;
