@@ -1,6 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
+import Container from "../_components/container";
+
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -9,6 +11,7 @@ export default function Home() {
           Calculator&nbsp;
         </p>
         </div>
+        <Container/>
     </main>
   );
 }
