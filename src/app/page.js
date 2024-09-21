@@ -1,6 +1,4 @@
-import Image from "next/image";
 import styles from "./page.module.css";
-
 import Container from "@/_components/container"
 import ButtonCard from "@/_components/buttoncard";
 import Display from "@/_components/display";
